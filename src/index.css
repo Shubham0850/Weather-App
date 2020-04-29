@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+
+h1{
+  font-weight: 800;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./images/rain.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 10px 10px 20px 10px;
+  transition: 0.5s ease;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cloud{
+  background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./images/cloud.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.spring{
+  background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./images/spring.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.sun{
+  background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./images/sun.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.input{
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+
+  width: 90%;
+  padding: 8px;
+}
+
+.search{
+  width: 100%;
+  height: auto;
+  background: rgba(255,255,255, 0.7);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px auto;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temp-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.temp-box{
+  height: 50%;
+  padding-top: 10%;
+}
+@media only screen and ( min-width: 900px){
+  .temp-box{
+    padding-top: 100px;
+  }
+}
+
+.time{
+  text-align: center;
+  font-weight: 500;
+  padding-left: 25px;
+}
+
+.name h2{
+  display: flex;
+  align-items: center;
+}
+
+.temp{
+  font-size: 80px;
+}
+
+.temp-icon{
+  display: flex;
+  align-items: center;
+}
+
+.temp-icon img{
+  margin-right: 15px;
+}
+
+.detail-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+hr{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.comp{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.quote{
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px 5px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
